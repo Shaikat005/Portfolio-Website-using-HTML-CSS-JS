@@ -18,7 +18,7 @@ Getting Started:
 Clone the Repository:
 
 Bash
-git clone https://github.com/<your-username>/portfolio-website.git
+git clone [https://github.com/<your-username>/portfolio-website.git](https://github.com/Shaikat005/Portfolio-Website-using-HTML-CSS-JS.git)
 Use code with caution.
 Open in a Text Editor or IDE:
 
