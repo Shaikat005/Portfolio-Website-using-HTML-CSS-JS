@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTD-8">
+    <meta http.equiv="C-UA-ompatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css" >
+    <script src="https://kit.fontawesome.com/74932e16f0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="Images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+        <div class="header-text">
+            <p>CSE Student</p>
+            <h1>Hi, I'm <span>Shaikat</span> <br>from Bangladesh.</h1>
+        </div>
+
+    </div>
+
+</div>
+
+
+<!----------About-------------------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images/about.jpg">
+            </div>
+            <div class="about-col-2">
+            <h1 class="sub-title">About me</h1>
+            <p>Motivated computer science engineering student with a strong passion for technology and a commitment to continuous learning.
+                Proficient in programming languages and experienced in solving complex problems using logical thinking and analytical skills.
+                I thrive in fast-paced environments, leveraging my adaptability to quickly grasp new concepts and technologies. 
+                I possess excellent problem-solving abilities and enjoy tackling challenges head-on, continuously seeking innovative solutions.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link"  onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>C</span><br>Semi-professional in C</li>
+                        <li><span>C++</span><br>Comfortable with C++</li>
+                        <li><span>App Development using java</span><br>Have some basic projects on app development</li>
+                        <li><span>Python</span><br>Have some projects using python</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Academic</span><br>I've academic experiences as a CSE student.</li>
+                        <li><span>App development</span><br>I've some basic projects on app development.</li>
+                        <li><span>Python</span><br>Have some projects using python</li>
+                        <li><span>Photography</span><br>Have passion about photography and won multiple prizes for photography.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>SSC</span><br>2018-Rangpur Zilla School,Rangpur.<br>G.P.A: 5.00</li>
+                        <li><span>HSC</span><br>2020-Govt. Edward College, Pabna.<br>G.P.A.: 5.00</li>
+                        <li><span>B.Sc.</span><br>2021-Ongoing(3rd Year)- National Institute of Textile Engineering and Research,Nayarhat,Nabinagar,Savar.
+                        <br>Current CGPA: 3.79</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-----------------Services-------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Title 1</h2>
+                <p>Description</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Title 2</h2>
+                <p>Description</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Title 3</h2>
+                <p>Description</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-----------------portfolio--------------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/niter.png">
+                <div class="layer">
+                    <h3>NITER Campuspedia.</h3>
+                    <p>A mobile app to navigate the NITER campus and and access all the resources of the campus.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/tic.png">
+                <div class="layer">
+                    <h3>Tic Tac Toe.</h3>
+                    <p>Tic Tac Toe android game app.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/photography.jpg">
+                <div class="layer">
+                    <h3>My Photography</h3>
+                    <p>All the pictures are campured and edited by me.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+
+<!--------------contact----------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-solid fa-envelope"></i>hasannawabshaikat0111@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>01643-735865</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=61553470680229&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/md-hasan-nawab-ab42272b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></i></a>
+                    <a href="https://www.instagram.com/leave_shaikat_alone?igsh=MTN0cWx3bHhxaHhuYg=="><i class="fa-brands fa-square-instagram"></i></i></a>
+                    <a href="https://youtube.com/@mdhasannawabshaikat8011?si=014QGMmb_S6G2G0x"><i class="fa-brands fa-youtube"></i></i></a>
+                </div>
+                <a href="Images/mycv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Md. Hasan Nawab. Developed by Md. Hasan Nawab.</p>
+    </div>
+</div>
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    } 
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxOki2TWQEpV2Sw4EH9UmT5XLQi1X-G2Hkvc8tFwajqwEvSLOh518ZdqTYW3K6h7OQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function () {
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
